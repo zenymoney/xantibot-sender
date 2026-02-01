@@ -48,8 +48,32 @@ High-performance mass email software with advanced anti-spam algorithms and mult
 - **mode-smtp**: Sends email using direct SMTP server, can use any email account that supports SMTP.
 - **mode-proxy**: Same as mode-smtp, but each SMTP connection can use a proxy (SOCKS/HTTP), suitable for mass sending to avoid IP blocking.
 
+## File Structure
+
+```
+├── attachment/              # Email attachments
+├── core/                    # Core PHP classes and utilities
+├── documentation/           # Guides and documentation
+├── Gauth/                   # Google Auth (Node.js scripts, tokens)
+├── list/                    # All configuration lists (recipients, smtp, etc)
+├── private-tools/           # Private tools and logs
+├── template/                # Email HTML templates
+├── vendor/                  # Composer dependencies (PHPMailer, Google API, etc)
+├── xantibot-php/            # Xantibot PHP binaries/libraries
+├── composer.json            # Composer dependencies config
+├── config.php               # Main configuration file
+├── mode-gmail.php           # Gmail API sending mode
+├── mode-smtp.php            # SMTP sending mode
+├── mode-proxy.php           # SMTP with proxy mode
+├── run.mode-proxy.bat       # Windows batch to run proxy mode
+├── run.mode-smtp.bat        # Windows batch to run SMTP mode
+└── readme.md                # Project documentation
+```
+
+
 ## Next Update Plan
 
 | Feature / Improvement         | Description                                      | Status    |
 |------------------------------|--------------------------------------------------|-----------|
 | mode-gscli                   | Send Email using gmailapp using Google Scripts    | Planned   |
+
