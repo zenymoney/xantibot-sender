@@ -47,3 +47,9 @@ High-performance mass email software with advanced anti-spam algorithms and mult
 - **mode-gmail**: Sends email using Gmail API , suitable for bypassing Gmail SMTP limits and more stable delivery.
 - **mode-smtp**: Sends email using direct SMTP server, can use any email account that supports SMTP.
 - **mode-proxy**: Same as mode-smtp, but each SMTP connection can use a proxy (SOCKS/HTTP), suitable for mass sending to avoid IP blocking.
+
+## Next Update Plan
+
+| Feature / Improvement         | Description                                      | Status    |
+|------------------------------|--------------------------------------------------|-----------|
+| mode-gscli                   | Send Email using gmailapp using Google Scripts    | Planned   |
