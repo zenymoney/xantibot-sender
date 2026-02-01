@@ -77,3 +77,7 @@ High-performance mass email software with advanced anti-spam algorithms and mult
 |------------------------------|--------------------------------------------------|-----------|
 | mode-gscli                   | Send Email using gmailapp using Google Scripts    | Planned   |
 
+
+# Join 
+For purchase and licensing information, please contact the developer directly via Telegram or join the official channel below.
+[![channel icon](https://patrolavia.github.io/telegram-badge/follow.png)](https://t.me/antibot_pw)
